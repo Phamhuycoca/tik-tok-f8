@@ -18,10 +18,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    color: var(--text-color);
+}
 html {
     font-size: 62.5%;
 }
 body {
     font-family: 'Roboto', serif;
     font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
 }
